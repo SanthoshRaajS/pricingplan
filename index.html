@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Price Tiers</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700">
-    <link rel="stylesheet" href="panel.css">
+    
     <style>
         html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -55,20 +55,15 @@ table {
 html {
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
-}
-
-body {
-  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
 }
 
-.panel {
-  background-color: white;
+body {
+    background-color: white;
   border-radius: 10px;
-  padding: 15px 25px;
+  padding: 50px 25px;
   width: 100%;
   max-width: 960px;
   display: flex;
@@ -76,8 +71,12 @@ body {
   align-items: center;
   text-align: center;
   text-transform: uppercase;
+  background-image: url("https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero.jpg");
   
+  background-image: url("https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero.jpg");
 }
+
+
 
 .pricing-plan {
   
@@ -85,13 +84,13 @@ body {
   margin: 10px 10px;
   paddIng: 25px 50px;
   border-radius: 15px;
+  width: 200px;
+    height: 500px;
   
 
   
 }
-.pricing-plan:last-child {
-  border-bottom: none;
-}
+
 
 .pricing-img {
   margin-bottom: 25px;
@@ -137,6 +136,7 @@ body {
   border-radius: 10px;
   color: #39AEA9;
   display: inline-block;
+  font-weight:700;
   padding: 15px 35px;
   text-decoration: none;
   margin: 25px 0;
@@ -169,7 +169,7 @@ h2{
 
 
 @media (min-width: 800px){
-  .panel {
+  body {
     flex-direction: row;
     width: 100%;
     
@@ -186,20 +186,16 @@ h2{
     
   
   }
-  .pricing-plan:last-child {
-    border-right: none;
-    
-
-  }
+  
 }
     </style>
 </head>
 
 <body>
-    <div class="panel pricing-table">
+    
 
         <div class="pricing-plan">
-            <img src="https://www.iconpacks.net/icons/2/free-paper-plane-icon-2563-thumb.png" alt="" class="pricing-img">
+            <img src="./paperr.png" alt="" class="pricing-img">
             <h2 class="pricing-header">Personal</h2>
             <ul class="pricing-features">
                 <li class="pricing-features-item">5 users</li>
@@ -213,7 +209,7 @@ h2{
         
 
         <div class="pricing-plan">
-            <img src="https://cdn-icons-png.flaticon.com/512/157/157410.png" alt="" class="pricing-img">
+            <img src="./rocket1.png" alt="" class="pricing-img">
             <h2 class="pricing-header">Enterprise</h2>
             <ul class="pricing-features">
                 <li class="pricing-features-item">50 users</li>
@@ -224,7 +220,7 @@ h2{
             <a href="#/" class="pricing-button is-featured">buy now</a>
         </div>
         <div class="pricing-plan">
-            <img src="https://cdn-icons-png.flaticon.com/128/1350/1350120.png" alt="" class="pricing-img">
+            <img src="./1350120.png" alt="" class="pricing-img">
             <h2 class="pricing-header">Small team</h2>
             <ul class="pricing-features">
                 <li class="pricing-features-item">20 users</li>
@@ -235,7 +231,7 @@ h2{
             <a href="#/" class="pricing-button">buy now</a>
         </div>
 
-    </div>
+    
 
 </body>
 
